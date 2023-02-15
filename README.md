@@ -14,7 +14,7 @@ Front-end code is in web-app and backend/apis is in server folder.
 
 This is how you can track the jobs
 
-https://user-images.githubusercontent.com/90353711/219221352-f11bef4b-8ac1-4054-9982-f0dcf8a14ecd.mov
+![Screen Recording 2023-02-15 at 6 35 37 PM](https://user-images.githubusercontent.com/90353711/219221958-f5194a2d-a2ea-45d7-811e-b03455bc0d4c.gif)
 
 This is how the Job listings look like
 
