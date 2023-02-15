@@ -1,0 +1,95 @@
+.job-title-heading{
+    //background: blue;
+   color: #0a66c2;
+   text-decoration: none;
+}
+.job-ul-list-content{
+    list-style-type: none;
+}
+.job-list-flex-container{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 15px 16px;
+    border: solid 1px #e6e6e6;
+    border-top: none;
+    border-radius: 0px;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.35s;
+}
+ /* On mouse-over, add a deeper shadow */
+ .job-list-flex-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.job-list-flex-child{
+    flex: 1;
+    //border: 2px solid yellow;
+}
+.job-list-flex-child:first-child {
+    margin-right: 20px;
+}
+
+.image {
+    flex-grow: 1;
+   // width: 20%;
+   // background-color: black;
+ }
+ .inner-content {
+    //flex-shrink: 1;
+    flex-grow: 7;
+ }
+ //.job-list-flex-container :hover{
+  //  box-shadow: 10 0 1px rgb(0 0 0 / 0%);
+// }
+ .item {
+     width: 100px;
+     height: 100px;
+ }
+.company-name{
+    //padding: 2px 16px;
+    padding-right: 9px;
+}
+ .viewjob-decription-container{
+     //display: flex;
+     float: left;
+     width: 100%;
+     padding: 2px 16px;
+     border: solid 1px #e6e6e6;
+     border-top: none;
+     border-radius: 0px;
+     position: relative;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+     transition: 0.35s;
+ }
+ .apply-job{
+     float: right;
+     //margin-right: 1000px;
+     //left: 100px;
+     //background-color: #2331ec;
+     padding-bottom: 20px;
+    
+ }
+  input{
+    height: 40px;
+    width: 100px;
+    background-color: #960e0e;
+    margin-bottom: 39px;
+    color: white;
+     
+ }
+.catalog-heading{
+    font-family: sans-serif;
+}
+.content-wrap a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.divJobDescriptionParent{
+    margin-top:3em;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e7e5e5;
+}

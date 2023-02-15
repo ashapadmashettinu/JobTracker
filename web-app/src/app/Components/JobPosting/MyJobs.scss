@@ -1,0 +1,184 @@
+@import '../../Styles/variables.scss';
+
+.job {
+    margin: 50px 0px;
+    max-width: 60em;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4rem;
+}
+
+.job .job-header {
+    height: 87px;
+    width: 100%;
+    background: #ebe3e3;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    padding: 0px 24px 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job .job-header h2 {
+    font-size: 1.5rem;
+    color: $pink;
+}
+
+.job .job-header span {
+    color: #a5a5a5;
+    font-size: 1rem;
+    margin-right: 4rem;
+}
+
+.job .job-content .task {
+    height: 4.4rem;
+    border: 1px solid #f7f7fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px 0px 32px;
+    background: $white;
+}
+
+.job .job-content .task .checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.job .job-content .task .checkbox input[type='checkbox'] {
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.job .job-content .task .checkbox .far.fa-circle,
+.job .job-content .task .checkbox .fas.fa-check-circle {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.job .job-content .task .checkbox .far.fa-circle {
+    color: #f4f5f1;
+}
+
+.job .job-content .task .checkbox .fas.fa-check-circle {
+    color: $violet;
+}
+
+.job .job-content .task .checkbox .task-text {
+    color: $blueColor;
+    font-size: 1rem;
+}
+
+.job .job-content .task .checkbox .completed {
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.job .job-content .task span {
+    color: #ababab;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: 10px;
+}
+
+.job .job-content .task .far.fa-trash-alt {
+    color: #ababab;
+    cursor: pointer;
+}
+
+.job .job-content .task .far.fa-trash-alt:hover {
+    color: $violet;
+}
+
+.job .job-footer {
+    height: 6.125rem;
+    position: relative;
+    background: #ebe3e3;
+    border: 1px solid #f7f7fa;
+}
+
+.job .job-footer button {
+    background: #e15869;
+    color: $white;
+    box-shadow: 0px 10px 14px #b6c4d7;
+    border: 1px solid transparent;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    font-size: 2rem;
+    position: absolute;
+    right: 22px;
+    top: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.job .job-footer button:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.viewIcon {
+    color: $blueColor;
+    margin-right: 5px;
+}
+
+.trashIcon {
+    color: $pink;
+}
+
+.job-list {
+    order: 1;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.alignCenter {
+    text-align: center;
+  }
+  
+  .content-wrap-jobs {
+    padding-left: 8em;
+    padding-left: 7em;
+    padding-bottom: 2.5rem;
+    /* Footer height */
+    display: flex;
+    gap: 5em;
+    ul{
+        padding-left: 0rem;
+    }
+  }
+  
+  .content-wrap>.content-el {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  i {
+    cursor: pointer;
+  }
+  label.task-text{
+    color: $blueColor;
+    font-size: 1rem;
+    font-weight: 400;
+    min-width:20%;
+    margin-left: -5em;
+}
+
+.labelJobPost{
+    display:contents;
+}

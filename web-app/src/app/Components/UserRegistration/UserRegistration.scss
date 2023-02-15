@@ -1,0 +1,124 @@
+body {
+    // font-size: 14px;
+    // line-height: 1.8;
+    // color: black;
+    // font-weight: 400;
+    // font-family: 'Montserrat';
+    // background-image: url('../images/signup-bg.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center center;
+    // padding: 115px 0;
+}
+.error{
+    color:red;
+}
+.form-group {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.form-text {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: rgba(10, 10, 10, 0.685);
+    //font-family: 'Montserrat';
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.input-config{
+    max-width:300px;
+}
+.form-input {
+    width: 100%;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    background: white; //color: $black-color;
+    //input-placeholder: grey-light;
+    &::-webkit-input-placeholder {
+        font-weight: 500;
+    }
+    &::-moz-placeholder {
+        font-weight: 500;
+    }
+    &:-ms-input-placeholder {
+        font-weight: 500;
+    }
+    &:-moz-placeholder {
+        font-weight: 500;
+    }
+    &:focus {
+        border: 1px solid transparent;
+        -webkit-border-image-source: -webkit-linear-gradient(to right, rgb(159, 172, 230), rgb(116, 235, 213));
+        -moz-border-image-source: -moz-linear-gradient(to right, rgb(159, 172, 230), rgb(116, 235, 213));
+        -o-border-image-source: -o-linear-gradient(to right, rgb(159, 172, 230), rgb(116, 235, 213));
+        border-image-source: linear-gradient(to right, rgb(159, 172, 230), rgb(116, 235, 213));
+        -webkit-border-image-slice: 1;
+        border-image-slice: 1;
+        border-radius: 5px;
+        // @include input-placeholder($black-color);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+}
+
+
+.form-input{
+    .btn-success {
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    
+}
+
+.input-config {
+    max-width: 600px;
+}
+
+
+.signup-content {
+    background-image: url('../images/signup-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 115px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.register-user{
+    .justify-content-md-center{
+        .form-title{
+    line-height: 1.66;
+    // margin: 0;
+    padding-left: 160px;
+    font-weight: 800;
+    color: #222;
+    //font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+        }
+    }
+    
+}
+
+.justify-content-md-center{
+    .form-input{
+        box-shadow: 0 4px 7px 2px #837d7d;
+    }
+    .alignCenter{
+        text-align: center;
+    }
+}

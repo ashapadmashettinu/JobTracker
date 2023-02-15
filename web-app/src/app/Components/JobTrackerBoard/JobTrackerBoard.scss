@@ -1,0 +1,35 @@
+  .task-header {
+      display: inline-block;
+      background-color: rgb(218, 49, 49);
+      width: 100%;
+      font-family: Serif;
+      color: white;
+  }
+  
+  .draggable {
+      width: 90%;
+      height: 100px;
+      margin: 5px auto;
+      line-height: 5em;
+  }
+  
+  .App {
+      display: flex;
+      flex-direction: row;
+      padding-left: 100px;
+  }
+  
+  .todos {
+      background: #f1f1f1;
+      height: 100vh;
+      width: 40vh;
+      margin: 10px;
+      box-shadow: 20px;
+      box-shadow: 3px 3px 3px #c0bebe;
+      border-radius: 4px;
+      left: 100px; // margin-right: -20px; //justify-content: center;
+  }
+  .trackerEl{
+    background-color: rgb(245, 225, 228);
+    display: inline-block;
+  }

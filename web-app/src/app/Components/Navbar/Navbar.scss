@@ -1,0 +1,61 @@
+.navHeader {
+    z-index: 100;
+    background: black;
+    color: white;
+    box-shadow: 0 4px 7px 2px #837d7d;
+    //height: 50px;
+}
+
+.content-body {
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.findJobs{
+    width: 101px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color:white !important;
+  }
+
+.nav-link:active {
+    //background-color: red;
+    
+}
+
+.nav-link a,
+.navdropdown a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500
+}
+
+.navbar-collapse {
+    margin-left: 10em;
+}
+
+.dropdown-menu a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+
+
+.d-flex {
+    margin-left: 20px;
+    margin-right: 175px;
+}
