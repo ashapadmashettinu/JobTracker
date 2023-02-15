@@ -1,0 +1,15 @@
+GET http://localhost:5000/apis/users
+
+###
+POST  http://localhost:5000/apis/users
+
+Content-Type: application/json
+
+{
+   // "_id": "61aba5e0a40d7b948f8dd648",
+    "username": "DineshH",
+    "password": "DineshReddy",
+    "firstName": "Potla",
+    "lastName": " Reddy"
+
+  }
