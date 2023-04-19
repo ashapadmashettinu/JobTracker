@@ -1,10 +1,9 @@
-# This a MERN Stack application used for applying jobs and tracking them in a Jira like dashboard.
-When searching for a job, applicants apply to multiple companies at once, and tracking their applications can be a hassle. A job tracker is a recruitment platform that allows employers and candidates to post job openings and apply for jobs all at the same time. Job seekers can also track their applications using Job Tracker. This website has rich features like job searching, applying for jobs, receiving confirmation emails after applicants submitting the job applications, an online dashboard for tracking jobs, posting new jobs, etc.
+# This is a MERN Stack job application tracking application with a Jira-like dashboard.
+ When searching for a job, it can be challenging to keep track of multiple applications. Job Tracker is a recruitment platform that simplifies the process by allowing both employers and job seekers to post openings and apply for jobs all in one place. Job Tracker also provides job seekers with an online dashboard to track their applications. The website offers numerous features, including job searching, applying for jobs, receiving confirmation emails, and posting new jobs.
 
+The front-end code is located in the web-app folder, while the back-end APIs are in the server folder.
 
-Front-end code is in web-app and backend/apis is in server folder.
-
-# Instructions to run the code
+# To run the code, follow these instructions:
     npm install && npm run server && npm run client
     create .env file in server folder and have TOKEN_KEY="somekey"
     Check README file of web-app and server
